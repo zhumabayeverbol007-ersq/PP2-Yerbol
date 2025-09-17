@@ -1,0 +1,12 @@
+#Посмотреть историю изменений и найдите хеш первого коммита. Он будет в последней строке результата git log.
+
+git checkout <hash>
+cat hello.html
+
+git switch main
+cat hello.html
+
+git checkout <hash> #Switch to a specific commit
+git checkout branch	#Switch to a branch (old method)
+git switch branch	#Switch to a branch (new method, branch only)
+git switch -c name	#Create a new branch and switch to it

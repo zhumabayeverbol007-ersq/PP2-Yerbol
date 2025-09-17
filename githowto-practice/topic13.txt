@@ -1,0 +1,13 @@
+git add hello.html #1Изменениe
+
+git status #2check
+
+git restore --staged hello.html #3Команда restore с флагом --staged очищает индекс.
+
+git restore hello.html #Воостановить файл до состояния последнего коммита.
+git status 
+
+$ git restore hello.html
+$ git status
+On branch main
+nothing to commit, working tree clean

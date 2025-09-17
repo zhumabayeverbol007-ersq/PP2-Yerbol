@@ -1,0 +1,6 @@
+git add a.html
+git add b.html
+git commit -m "Changes for a and b"
+
+git add c.html
+git commit -m "Unrelated change to c"

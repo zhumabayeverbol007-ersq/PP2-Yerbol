@@ -1,0 +1,20 @@
+Используйте команду restore, чтобы сбросить содержимое файла hello.html.
+
+git restore hello.html
+git status
+cat hello.html
+
+$ git restore hello.html
+$ git status
+On branch main
+nothing to commit, working tree clean
+$ cat hello.html
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+
+#Команда status показывает нам, что в рабочей директории не было сделано никаких незафиксированных изменений
